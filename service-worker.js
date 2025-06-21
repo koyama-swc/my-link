@@ -1,7 +1,7 @@
 const CACHE_NAME = 'mylink-cache-v2';
 const OFFLINE_URL = 'offline.html';
 const PRECACHE_ASSETS = [
-  '/',
+  '.',
   'index.html',
   'style.css',
   'script.js',
