@@ -1,11 +1,10 @@
-const CACHE_NAME = 'mylink-cache-v1';
+const CACHE_NAME = 'mylink-cache-v2';
 const OFFLINE_URL = 'offline.html';
 const PRECACHE_ASSETS = [
   '/',
   'index.html',
   'style.css',
   'script.js',
-  'links.json',
   'manifest.json',
   OFFLINE_URL,
   'assets/avatar.png'
@@ -29,6 +28,18 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   const { request } = event;
+  const isLinksJson = request.url.endsWith('/links.json');
+  if (isLinksJson) {
+    // network-first strategy for links.json
+    event.respondWith(
+      fetch(request).then(res => {
+        const resClone = res.clone();
+        caches.open(CACHE_NAME).then(c => c.put(request, resClone));
+        return res;
+      }).catch(() => caches.match(request))
+    );
+    return;
+  }
   if (request.mode === 'navigate') {
     event.respondWith(
       fetch(request).catch(() => caches.match(OFFLINE_URL))
