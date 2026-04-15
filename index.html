@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>コヤマ@SWC | 社会人✕投資✕最新テクノロジー のリンク集</title>
-  <meta name="description" content="AI・NFTなどの最先端テクノロジーから、投資や暗号資産の実践まで。コヤマ@SWC のリンク集。">
+  <title>コヤマ@SWC | AI✕投資✕自分の人生を生きる</title>
+  <meta name="description" content="自分の人生を生きたい人へ。AIと投資を通して、時間とお金を手に入れる実践を発信中！">
   <!-- SEO / OGP -->
-  <meta property="og:title" content="コヤマ@SWC | 社会人✕投資✕最新テクノロジー のリンク集">
-  <meta property="og:description" content="AI・NFTなどの最先端テクノロジーから、投資や暗号資産の実践まで。">
+  <meta property="og:title" content="コヤマ@SWC | AI✕投資✕自分の人生を生きる">
+  <meta property="og:description" content="自分の人生を生きたい人へ。AIと投資を通して、時間とお金を手に入れる実践を発信中！">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:url" content="https://koyama-swc.github.io/my-link/">
+  <meta property="og:image" content="assets/avatar.png">
+  <meta name="twitter:card" content="summary">
 
   <!-- Styles & Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=M+PLUS+Rounded+1c:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=M+PLUS+Rounded+1c:wght@700&family=Noto+Sans+JP:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <!-- Manifest & Icons -->
@@ -22,19 +24,45 @@
   <link rel="icon" href="assets/avatar.png">
 
   <!-- Font Awesome 6 Free CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-8e+" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
+  <!-- Animated background particles -->
+  <canvas id="particles"></canvas>
+
   <main>
-    <img src="assets/avatar.png" alt="Avatar" class="avatar">
-    <h1>コヤマ@SWC</h1>
-    <p class="catchcopy">
-      【社会人✕投資✕最新テクノロジー】<br>
-      AI・NFTなどの最先端テクノロジーから、投資や暗号資産の実践まで。<br>
-      ネットでは見つからないリアルな体験談や、初心者でも迷わず実践できる情報を発信しています！
+    <!-- Avatar with glow ring -->
+    <div class="avatar-wrapper" id="avatar-section">
+      <img src="assets/avatar.png" alt="コヤマ@SWC アバター" class="avatar" id="avatar-img">
+    </div>
+
+    <h1 id="profile-name">コヤマ@SWC</h1>
+
+    <p class="tagline" id="profile-tagline">【AI✕投資✕自分の人生を生きる】</p>
+
+    <p class="catchcopy" id="profile-catchcopy">
+      自分の人生を生きたい人へ。<br>
+      AIと投資を通して、時間とお金を手に入れる実践を発信中！
     </p>
+
+    <!-- 実践中リスト -->
+    <div class="practice-card" id="practice-section">
+      <p class="practice-title">▼ 実践中</p>
+      <ul class="practice-list">
+        <li>Antigravity×Obsidianで知識循環を構築中</li>
+        <li>投資歴7年目（オルカン中心、ビットコイン積立）</li>
+        <li>note継続発信 24年10月〜</li>
+      </ul>
+    </div>
+
+    <!-- Links -->
     <ul id="links"></ul>
+
+    <footer id="footer">
+      <p>&copy; 2025 Koyama SWC</p>
+    </footer>
   </main>
+
   <script src="script.js" defer></script>
 </body>
 </html>

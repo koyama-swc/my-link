@@ -1,11 +1,11 @@
 {
-  "name": "MyLink – コヤマ@SWC のリンクまとめ",
-  "short_name": "MyLink",
-  "description": "コヤマ@SWC のリンク集 (PWA)",
+  "name": "コヤマ@SWC | AI✕投資✕自分の人生を生きる",
+  "short_name": "コヤマLink",
+  "description": "自分の人生を生きたい人へ。AIと投資を通して、時間とお金を手に入れる実践を発信中！",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#B00020",
+  "background_color": "#0a0a0a",
+  "theme_color": "#e0002b",
   "icons": [
     {
       "src": "assets/avatar.png",

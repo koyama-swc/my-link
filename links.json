@@ -1,8 +1,37 @@
 [
-  { "icon": "fa-note-sticky", "label": "note",        "sub": "コヤマ@SWC",                       "url": "https://note.com/ri_ra_ta_na" },
-  { "icon": "fa-youtube",     "label": "YouTube",     "sub": "コヤマの学びチャンネル",            "url": "https://youtube.com/channel/UCBxgrkoP_3GenjTao0CaAKg?feature=shared" },
-  { "icon": "fa-podcast",     "label": "stand.fm",    "sub": "コヤマの学びと気づきラジオ",        "url": "https://stand.fm/channels/6649cf88316143a771c72242" },
-  { "icon": "fa-x-twitter",   "label": "X (旧Twitter)","sub": "コヤマ@SWC",                    "url": "https://x.com/ri_ra_ta_na" },
-  { "icon": "fa-headphones",  "label": "Suno AI",     "sub": "コヤマ@SWC",                       "url": "https://suno.com/playlist/c09658ab-e959-4101-aa94-85c5cceb7d50" },
-  { "icon": "fa-link",        "label": "AI Tool Workshop", "sub": "ワークショップ",                 "url": "https://koyama-swc.github.io/ai-tool-workshop/" }
+  {
+    "icon": "fa-note-sticky",
+    "iconType": "solid",
+    "label": "note",
+    "sub": "コヤマ",
+    "url": "https://note.com/ri_ra_ta_na"
+  },
+  {
+    "icon": "fa-youtube",
+    "iconType": "brands",
+    "label": "YouTube",
+    "sub": "コヤマの学びチャンネル",
+    "url": "https://youtube.com/channel/UCBxgrkoP_3GenjTao0CaAKg?feature=shared"
+  },
+  {
+    "icon": "fa-spotify",
+    "iconType": "brands",
+    "label": "Podcast",
+    "sub": "コヤマの学びと気づきラジオ",
+    "url": "https://open.spotify.com/show/6TV7TCagP0t6yf9DSfkbBo?si=32c9e2a0bb234dd3"
+  },
+  {
+    "icon": "fa-x-twitter",
+    "iconType": "brands",
+    "label": "X (旧Twitter)",
+    "sub": "コヤマ@SWC",
+    "url": "https://x.com/ri_ra_ta_na"
+  },
+  {
+    "icon": "fa-spotify",
+    "iconType": "brands",
+    "label": "ハル (Music)",
+    "sub": "Spotify アーティストページ",
+    "url": "https://open.spotify.com/intl-ja/artist/74z9XGFCwBn9nUpV2yDfNa?si=dnM6eEBQSyGiWAJQng9e3w"
+  }
 ]
