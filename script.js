@@ -5,7 +5,7 @@
 // --- Fetch links and render buttons ---
 async function loadLinks() {
   try {
-    const res = await fetch('links.json');
+    const res = await fetch('links.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error('links.json not found');
     const links = await res.json();
     const container = document.getElementById('links');

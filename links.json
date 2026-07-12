@@ -3,35 +3,42 @@
     "icon": "fa-note-sticky",
     "iconType": "solid",
     "label": "note",
-    "sub": "コヤマ",
+    "sub": "実践記200本以上。AI活用・投資・日常の気づき",
     "url": "https://note.com/ri_ra_ta_na"
   },
   {
     "icon": "fa-youtube",
     "iconType": "brands",
     "label": "YouTube",
-    "sub": "コヤマの学びチャンネル",
+    "sub": "AIツールの使い方を画面付きで解説",
     "url": "https://youtube.com/channel/UCBxgrkoP_3GenjTao0CaAKg?feature=shared"
   },
   {
     "icon": "fa-spotify",
     "iconType": "brands",
     "label": "Podcast",
-    "sub": "コヤマの学びと気づきラジオ",
+    "sub": "通勤中に聴ける、投資とAIのリアルな経験談",
     "url": "https://open.spotify.com/show/6TV7TCagP0t6yf9DSfkbBo?si=32c9e2a0bb234dd3"
+  },
+  {
+    "icon": "fa-envelope-open-text",
+    "iconType": "solid",
+    "label": "Substack",
+    "sub": "メールで届く実践記録ニュースレター",
+    "url": "https://substack.com/@koyamaswc"
   },
   {
     "icon": "fa-x-twitter",
     "iconType": "brands",
     "label": "X (旧Twitter)",
-    "sub": "コヤマ@SWC",
+    "sub": "現在休止中",
     "url": "https://x.com/ri_ra_ta_na"
   },
   {
     "icon": "fa-spotify",
     "iconType": "brands",
     "label": "ハル (Music)",
-    "sub": "Spotify アーティストページ",
+    "sub": "【その他の活動】AI音楽をSpotifyで配信中",
     "url": "https://open.spotify.com/intl-ja/artist/74z9XGFCwBn9nUpV2yDfNa?si=dnM6eEBQSyGiWAJQng9e3w"
   }
 ]
