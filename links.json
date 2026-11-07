@@ -3,14 +3,14 @@
     "icon": "fa-note-sticky",
     "iconType": "solid",
     "label": "note",
-    "sub": "実践記録211本以上。AI活用・投資・日常の気づき",
+    "sub": "AIに任せてみた実践記録。家計・投資・AIの気づき",
     "url": "https://note.com/ri_ra_ta_na"
   },
   {
     "icon": "fa-youtube",
     "iconType": "brands",
     "label": "YouTube",
-    "sub": "AIツールの使い方を画面付きで解説",
+    "sub": "AIに任せた作業を、声なし・字幕で記録",
     "url": "https://youtube.com/channel/UCBxgrkoP_3GenjTao0CaAKg?feature=shared"
   },
   {
@@ -26,6 +26,13 @@
     "label": "Substack",
     "sub": "メールで届く実践記録ニュースレター",
     "url": "https://substack.com/@koyamaswc"
+  },
+  {
+    "icon": "fa-music",
+    "iconType": "solid",
+    "label": "Neural Sync (BGM)",
+    "sub": "AIと作る作業用BGM。毎月2枚配信",
+    "url": "https://neuralsync-music.pages.dev/"
   },
   {
     "icon": "fa-x-twitter",
